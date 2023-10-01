@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body
+{
+    background-color: #000000;
+}
+.main-container
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://files.merca20.com/uploads/2022/07/Netflix-plan-anuncios-precios.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+    color: white;
+    background-color: #121212;
+}
+.logo
+{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.lang
+{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    background: transparent;
+    background-image:none;
+    font-size: 15px;
+    font-weight:400;
+    color: white;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-right: -690px;
+
+}
+.downarrow
+{
+    width: 10px;
+}
+.enter
+{
+    background-color:#E50911;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.enter:hover
+{
+    background-color: #C11119;
+}
+.container2
+{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 237px;
+    line-height:54px;
+    
+}
+.container2 .para1
+{
+    color: white;
+    font-size: 43px;
+  
+}
+.container2 .para2
+{
+    color: #FFFFD6;
+    font-size: 22px;
+    
+}
+.container2 .para3
+{
+    color: #FFFFD6;
+    font-size: 19px;
+    
+}
+
+.container2 button
+{
+    background-color:#E50911;
+    color: white;
+    font-size: 20px;
+    font-weight:530;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.container2 button:hover
+{
+    background-color: #C11119;
+}
+.container2 input
+{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    background: transparent;
+    background-image:none;
+    font-size: 15px;
+    font-weight:600;
+    color:#BAB9BA;
+    border: 1px solid gray;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+.finishing-line
+{
+    padding:4px;
+    background-color: #121212;
+}
+.second-page
+{
+    background-color:#000000;
+    color: white;
+    display: flex;
+    margin-bottom:70px;
+   
+}
+.second-page .para1
+{
+    font-size: 45px;
+    font-weight: 600;
+}
+.second-page .para2
+{
+    max-width:540px;
+    font-size:22px;
+}
+.second-page .left
+{
+    margin-left: 130px;
+    margin-top:150px;
+}
+.second-page .right
+{
+    overflow: hidden;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.second-page .right img
+{
+    display: block;
+    margin: auto;
+    width:505px;
+    position: relative;
+    z-index: 2;
+}
+.second-page .right video
+{
+    position: absolute;
+    width:370px;
+    margin-top: -305px;
+    margin-left:150px;
+    
+
+}
+
+
+.third-page
+{
+    background-color:#000000;
+    color: white;
+    display: flex;
+    margin-bottom:70px;
+    margin-left: 63px;
+}
+.third-page .para1
+{
+    font-size: 45px;
+    font-weight: 600;
+    max-width:530px;
+}
+.third-page .para2
+{
+    max-width:550px;
+    font-size:22px;
+}
+.third-page .right
+{
+    margin-left: 130px;
+    margin-top:150px;
+}
+.third-page .left
+{
+    margin-top:74px;
+    margin-left:94px;
+}
+
+.forth-page
+{
+    background-color:#000000;
+    color: white;
+    display: flex;
+    margin-bottom:70px;
+    margin-top: 64px;
+   
+}
+.forth-page .para1
+{
+    font-size: 45px;
+    font-weight: 600;
+}
+.forth-page .para2
+{
+    max-width:500px;
+    font-size:22px;
+}
+.forth-page .left
+{
+    margin-left: 130px;
+    margin-top:150px;
+}
+.forth-page .right
+{
+    margin-left:75px;
+}
+
+.fifth-page
+{
+    background-color:#000000;
+    color: white;
+    display: flex;
+    margin-bottom:70px;
+    margin-left: 63px;
+}
+.fifth-page .para1
+{
+    font-size: 45px;
+    font-weight: 600;
+    max-width:500px;
+}
+.fifth-page .para2
+{
+    max-width:500px;
+    font-size:22px;
+}
+.fifth-page .right
+{
+    margin-left: 130px;
+    margin-top:150px;
+}
+.fifth-page .left
+{
+    margin-top:74px;
+    margin-left:94px;
+}
+
+.sixth-page
+{
+    background-color:#000000;
+    color: white;
+    display: flex;
+    margin-bottom:70px;
+    margin-top:25px;
+    justify-content: center;
+}
+.faq
+{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    }
+
+ul
+{
+    display:flex;
+    flex-direction: column;
+}
+.ques
+{
+    margin: 60px auto;
+    margin-top:25px;
+    width: 100%;
+    max-width: 750px;
+    color: white;
+}
+.ques li label:hover
+{
+    background-color: #414141;
+}
+.ques li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.ques li label
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.1s ;
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+.ques .content
+{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.ques input[type="radio"]:checked + label + .content{
+    max-height:600px;
+    padding:30px 20px;
+}
+.ques input[type="radio"]:checked + label::after{
+  transform: rotate(135deg);
+  }
+  .register
+  {
+    margin-top:15px;
+  }
+.register p
+{
+    color: white;
+    font-size:18px;
+    display: flex;
+    justify-content: center;
+}
+.register form
+{
+   margin-top:21px;
+   margin-bottom: 70px;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+}
+ .register button
+{
+    background-color:#E50911;
+    color: white;
+    font-size: 20px;
+    font-weight:530;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 10px 35px;
+}
+.register button:hover
+{
+    background-color: #C11119;
+}
+input
+{
+    border: 0;
+    outline: 0;
+    background-color: #1C2432;
+    font-size: 15px;
+    font-weight:600;
+    color:#BAB9BA;
+    border: 1px solid #2BB871;
+    padding: 15px 65px;
+    border-radius: 4px;
+}
+
+
+footer{
+    padding-block: 80px;
+    background-color:#000000;
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.link-column
+{
+flex-direction: column;
+justify-content: left;
+gap: 20px;
+}
+.footer-container
+{
+align-items: flex-start;
+justify-content: space-between;
+}
+.container
+{
+    max-width: 1100px;
+    margin-inline:auto;
+    padding-inline: var(--padding-inline-section);
+    overflow:hidden;
+}
+.flex
+{
+    display:flex;
+    align-items: center;
+    
+}
+.hover-link
+{
+   color:#B3B3B3;
+   align-self: self-start;
+}
+.call
+{
+   margin-top:-47px;
+   margin-bottom:22px;
+   color:#B3B3B3;
+   margin-left:118px;
+}
+.lang2
+{
+    border:0;
+    outline:0;
+    background-color:#0F0F0F;
+    font-size: 15px;
+    font-weight:400;
+    color: white;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-top:35px;
+    margin-left:118px;
+
+}
+.downarrow2
+{
+    width: 10px;
+}
+.reserve
+{
+    font-size: 14px;
+    margin-top:20px;
+    margin-left:118px;
+}
